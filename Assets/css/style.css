@@ -1,96 +1,90 @@
-box-sizing: border-box;
-h1 {
-    display: inline-flex;
-    float: right;
-    overflow: auto;
-    background-color: blue;
+body {
+    width: 100%;
+    background-color: lightgrey;
     position: relative;
-    margin-left: 120px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding: 10px;
-    margin-right: 680px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* display: inline-flex; */
 }
 
 .NavBarItems {
-    overflow: auto;
+    /* position: relative; */
+    /* overflow: auto; */
     /* Display: inline-flex; */
-    position: relative;
-    clear: both;
-    float: right;
+    /* position: relative; */
+    /* clear: both; */
+    /* float: right; */
     border: 4px black;
     background-color: gray;
     list-style-type: none;
     padding: 30px;
+    width: 100%;
+    word-spacing: 0%;
     /* margin-left: 0px; */
-    margin: 0px;
-    /* width: 100%; */
+    /* margin: auto; */
+    /* width: 960px; */
+}
+
+h1 {
+    /* position: relative; */
+    /* clear: both; */
+    /* display: inline-flex; */
+    */ float: left;
+    /* overflow: auto; */
+    background-color: blue;
+    /* position: relative; */
+    /* margin-left: 100px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 30px;
+    width: 100px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 1em bold;
+    /* margin-right: 750px; */
 }
 
 .Item {
-    Display: inline-flex color;
-    color: white;
-    clear: both;
-    overflow: auto;
-    float: right;
-}
-
-li a {
-    clear: both;
-    display: inline-block;
-    padding: 8px;
-}
-
-.NavBarItems {
-    clear: both;
-    float: right;
-    border: 4px black;
-    background-color: gray;
-    list-style-type: none;
-    padding: 30px;
-    /* margin-left: 0px; */
-    margin: 0px;
-    width: 100%;
-}
-
-body {
+    /* clear: both; */
+    Display: inline;
+    /* color: white; */
+    /* clear: both; */
     width: 960px;
-    background-color: lightgrey;
-}
-
-h2 {
-    padding: 20px;
-    margin-left: 190px
-}
-
-/* a {
-     Display: inline;
-     clear: both;
-     overflow: auto;
-     padding: 10px; */
-
+    overflow: auto;
+    /* float: right; */
+    margin-right: 0px;
+    /* margin-top: inherit; */
+    /* word-spacing: 2px; */
+    text-decoration: none;
+    color: black;
+    /* margin-left: 310px; */
 }
 
 #Thumb {
-    position: relative;
-    float: left;
+    /* position: relative; */
+    /* float: left; */
     clear: both;
-    overflow: auto;
+    /* Display: inline-flex; */
+    float: left;
+    /* overflow: auto; */
     padding: 10px;
     border: 2px black;
-    margin-left: 75px;
+    margin-left: 0px;
 }
 
 .Content {
     /* position: relative; */
-    clear: both;
+    /* clear: both; */
     float: left;
+    /* width: 960px; */
+    word-wrap: right;
     width: 960px;
-    Display: inline-block;
-    overflow: auto;
+    height: 300px;
+    /* Display: inline-block; */
+    /* overflow: auto; */
     padding: 100px;
     margin-top: 0px;
-    margin-left: 175px;
+    margin-left: 110px;
     margin-bottom: 150px;
     margin-right: 650px;
     border: 8px #dddddd;
@@ -112,6 +106,12 @@ h2 {
 
 /* * If you don't have a picture, you can grab a placeholder image from [LoremPixel](http://lorempixel.com/). Save the images to your `images` folder. */
 
+h2 {
+    clear: both;
+    padding: 20px;
+    margin-left: 170px;
+    margin-top: 100px;
+    font-size: 2em;
 }
 
 /* h1, 
@@ -134,12 +134,43 @@ h2 {
 footer {
     text-align: center;
     clear: both;
-    overflow: auto;
+    /* overflow: auto; */
     background-color: #666666;
-    position: absolute;
+    /* position: absolute; */
     height: [footer-height];
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 5;
     /* from "Sticky Footer" Google-Search */
 }
+
+li a,
+a :link,
+a :visited,
+a :hover,
+a :active {
+    color: black;
+    float: right;
+    margin-right: 0px;
+    text-decoration: none;
+    /* word-spacing: 8px;}*/
+    color: palegoldenrod;
+    text-decoration: none;
+    /* 
+I got this too work in W3Schools "Try-it Yourself".So, "a" equals "li-a" above and ".Cheeky" would eqaute to the "NavItems" div and "h1" above eqautes to "p" below. 
+
+.Cheeky {background-color: green; width: 600px;}
+a {
+//position: absolute;
+color: black;
+    float: right;
+    margin-left: 70px; 
+	text-decoration: none;
+}
+p {display: inline-flex; background-color: gray; margin-top: 0px;}
+</style>
+</head>
+<body>
+
+ */
