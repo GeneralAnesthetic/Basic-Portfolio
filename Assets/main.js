@@ -1,7 +1,5 @@
 /*global $, jQuery, alert*/
 $(document).ready(function() {
-  "use strict";
-
   // ========================================================================= //
   //  //SMOOTH SCROLL
   // ========================================================================= //
@@ -12,9 +10,9 @@ $(document).ready(function() {
     e.preventDefault();
     $(document).off("scroll");
 
-    $("a").each(function() {
+    $("img").each(function() {
       $(this).removeClass("active");
-      if ($(window).width() < 768) {
+      if ($(window).width() < 500) {
         $(".nav-menu").slideUp();
       }
     });
@@ -70,9 +68,9 @@ $(document).ready(function() {
   //  // RESPONSIVE MENU
   // ========================================================================= //
 
-  $(window).on("click", function(e) {
-    $(".navbar").slideToggle();
-  });
+  // $(window).on("click", function(e) {
+  //   $(".navbar").slideToggle();
+  // });
 
   // ========================================================================= //
   //  Typed Js
